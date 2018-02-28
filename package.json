@@ -28,5 +28,10 @@
     "redux-devtools": "^3.4.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
+  },
+
+  "scripts": {
+    "start": "node server.js",
+    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
   }
 }

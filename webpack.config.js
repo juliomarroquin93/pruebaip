@@ -46,14 +46,10 @@ var config = {
             jsSourcePath
         ],
         alias: {
-            scss: scssSourcePath
+          scss: scssSourcePath
         }
     },
-    devServer: {
-        host: "localhost",
-        port: 8000,
-        contentBase: "./dist"
-    },
+
     devtool: "eval-source-map"
 };
 
